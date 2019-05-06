@@ -5,8 +5,7 @@ answer = input()
 if answer == "yes" or "y":
     print("How generous are you? (Must be in %)")
     tip_percent = input()
-    tipvalue = int(tip_percent)
-    tip_amount = (55 * tipvalue)/100
+    tip_amount = (55 * int(tip_percent))/100
     print("Your tip amount is ${}".format(tip_amount))
 
 # 2. Solution
